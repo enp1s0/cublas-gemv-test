@@ -6,12 +6,15 @@ make
 ```
 
 ## Run
+```
 ./cublas-gemv.test
+```
 
 
 ## Result
 - on NVIDIA A100 40GB (SXM4)
   - Maximum : 367 GFlop/s (1.47 TB/s, bandwidth efficiency : 94%)
+
 ```
 N,bandwidth_in_tbyteps,throughput_in_tflops
 128,2.581721e-02,6.355006e-03
